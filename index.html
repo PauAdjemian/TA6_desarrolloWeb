@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="comidas">Comida favorita</label>
+            <select name="comidas" id="comidas">
+                <option value="">Elegí tu preferida</option>
+                <option value="1">Milanesa</option>
+                <option value="2">Hamburguesa</option>
+            </select>
+        </div>
 
+        <div>
+            <fieldset>
+                <legend>Elegí tu opción favorita</legend>
+                <div>
+                    <input type="radio" id="milanesa" name="opcion" value="Milanesa" checked />
+                    <label for="milanesa">Milanesa</label>
+                </div>
+                <div>
+                    <input type="radio" id="hamburguesa" name="opcion" value="Hamburguesa" />
+                    <label for="hamburguesa">Hamburguesa</label>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
